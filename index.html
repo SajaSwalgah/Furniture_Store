@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furniture Store</title>
+    <script
+      src="https://kit.fontawesome.com/e02510b554.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- modal box -->
+    <input type="checkbox" id="show-hide-forms" hidden />
+    <div class="forms-wrapper">
+      <label for="show-hide-forms" class="x-btn">&#10005;</label>
+      <input type="checkbox" id="show-form" hidden />
+      <div class="show-btns-wrapper">
+        <label for="show-form" class="show-form-btn show-signup-form"
+          >Sign Up</label
+        >
+        <label for="show-form" class="show-form-btn show-login-form"
+          >Log In</label
+        >
+      </div>
+      <form action="" class="signup-form">
+        <h3 class="form-heading">Sign Up</h3>
+        <div class="fullName-input-wrapper">
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Second Name" />
+        </div>
+        <input type="text" class="form-input" placeholder="Username" />
+        <input type="email" class="form-input" placeholder="Email" />
+        <input type="password" class="form-input" placeholder="Password" />
+        <input type="submit" value="SIGN UP" class="form-btn" />
+      </form>
+
+      <form action="" class="login-form">
+        <h3 class="form-heading">Log In</h3>
+        <input type="email" class="form-input" placeholder="Email" />
+        <input type="password" class="form-input" placeholder="Password" />
+        <input type="submit" value="LOG IN" class="form-btn" />
+      </form>
+    </div>
+    <!-- end of modal box -->
+    <div class="container">
+      <!-- start of nav -->
+      <ul class="social-icons">
+        <li class="social-icon-item">
+          <a href="" class="social-icon-link"
+            ><i class="fab fa-facebook-square social-icon"></i
+          ></a>
+        </li>
+        <li class="social-icon-item">
+          <a href="" class="social-icon-link"
+            ><i class="fab fa-linkedin social-icon"></i
+          ></a>
+        </li>
+        <li class="social-icon-item">
+          <a href="" class="social-icon-link"
+            ><i class="fab fa-twitter-square social-icon"></i
+          ></a>
+        </li>
+        <li class="social-icon-item">
+          <a href="" class="social-icon-link"
+            ><i class="fab fa-instagram-square social-icon"></i
+          ></a>
+        </li>
+      </ul>
+      <nav class="first-nav">
+        <ul class="first-nav-list">
+          <li class="first-nav-item">
+            <a href="" class="first-nav-link"
+              ><label for="show-hide-forms">
+                <i class="fas fa-sign-in-alt"></i>Sign Up / Log In
+              </label></a
+            >
+          </li>
+          <li class="first-nav-item">
+            <a href="" class="first-nav-link"
+              ><i class="fas fa-shopping-cart"></i>Cart(<span>2 items</span>)</a
+            >
+          </li>
+          <li class="first-nav-item">
+            <a href="" class="first-nav-link"
+              ><i class="fas fa-truck"></i>Order Now</a
+            >
+          </li>
+          <li class="first-nav-item">
+            <a href="" class="first-nav-link"
+              ><i class="fas fa-heart"></i>Wish List</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="search">
+        <form action="" class="search-form">
+          <input type="text" class="search-input" placeholder="search" />
+          <button class="search-btn"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+      <nav class="second-nav">
+        <ul class="second-nav-list">
+          <li class="second-nav-item">
+            <a href="" class="second-nav-link">Furniture</a>
+            <div class="dropdown">
+              <ul class="dropdown-first-list">
+                <li class="dropdown-list-item">
+                  <a class="dropdown-list-link" href=""> Sofas</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a class="dropdown-list-link" href=""> Sectionals</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a class="dropdown-list-link" href=""> Daybeds & Chaises</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a class="dropdown-list-link" href=""> Credenzas</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a class="dropdown-list-link" href=""> Chairs</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a class="dropdown-list-link" href=""> Benches & Ottomans</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a class="dropdown-list-link" href=""> Dressers & Chests</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a class="dropdown-list-link" href=""> Dining Tables</a>
+                </li>
+              </ul>
+              <ul class="dropdown-second-list">
+                <li class="dropdown-list-item">
+                  <a class="dropdown-list-link" href=""> Lampers</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a class="dropdown-list-link" href=""> Baxter</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a class="dropdown-list-link" href=""> Channing</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a class="dropdown-list-link" href=""> Maxime</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a class="dropdown-list-link" href=""> Talitha</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a class="dropdown-list-link" href=""> Rider</a>
+                </li>
+                <li class="dropdown-list-item">
+                  <a class="dropdown-list-link" href=""> Gold fingers</a>
+                </li>
+              </ul>
+              <img
+                src="images/dropdown-image.jpg"
+                alt=""
+                class="dropdown-image"
+              />
+            </div>
+          </li>
+          <li class="second-nav-item">
+            <a href="" class="second-nav-link">Rooms</a>
+          </li>
+          <li class="second-nav-item">
+            <a href="" class="second-nav-link">Kitchen</a>
+          </li>
+          <li class="second-nav-item">
+            <a href="" class="second-nav-link">Outdoor</a>
+          </li>
+          <li class="second-nav-item">
+            <a href="" class="second-nav-link">Lighting</a>
+          </li>
+          <li class="second-nav-item">
+            <a href="" class="second-nav-link">Bed & Baths</a>
+          </li>
+          <li class="second-nav-item">
+            <a href="" class="second-nav-link">Window</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- end of nav -->
+      <!-- start of banner -->
+      <section class="banner">
+        <div class="banner-content">
+          <h1 class="banner-heading">Great Sale</h1>
+          <button class="banner-btn">
+            <span class="banner-btn-text-one">Shop Now</span>
+            <span class="banner-btn-text-two">It's Interesting</span>
+          </button>
+        </div>
+        <div class="slideshow">
+          <button class="slide-btn slide-btn-1"></button>
+          <button class="slide-btn slide-btn-2"></button>
+          <button class="slide-btn slide-btn-3"></button>
+          <button class="slide-btn slide-btn-4"></button>
+          <div class="slideshow-wrapper">
+            <div class="slide">
+              <img src="images/slodeshow-image1.avif" alt="slideshow image" />
+            </div>
+            <div class="slide">
+              <img src="images/slodeshow-image2.avif" alt="slideshow image" />
+            </div>
+            <div class="slide">
+              <img src="images/slodeshow-image3.avif" alt="slideshow image" />
+            </div>
+            <div class="slide">
+              <img src="images/slodeshow-image4.avif" alt="slideshow image" />
+            </div>
+            <div class="slide">
+              <img src="images/xxx.avif" alt="slideshow image" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of banner -->
+      <!-- day-offer -->
+      <section class="day-offer">
+        <img
+          src="images/day-offer-3.avif"
+          alt="day-offer-img"
+          class="day-offer-img-one"
+        />
+        <h1 class="day-offer-heading">Day Offer</h1>
+        <p class="day-offer-paragraph">Feel better with new furniture</p>
+        <button class="day-offer-btn">Shop Now</button>
+        <img
+          src="images/day-offer-2.avif"
+          alt="day-offer-img"
+          class="day-offer-img-two"
+        />
+      </section>
+      <!-- end of day-offer -->
+      <!-- bestselling  -->
+      <section class="bestselling">
+        <h1 class="bestselling-header">Bestselling Furniture</h1>
+        <div class="bestselling-cards">
+          <div class="bestselling-card">
+            <img src="images/kitchen.avif" alt="" class="bestselling-img" />
+            <h2 class="bestselling-heading">Kitchen</h2>
+            <p class="bestselling-paragraph">price: $ 15,000</p>
+            <button class="bestselling-btn">Buy Now</button>
+          </div>
+          <div class="bestselling-card">
+            <img src="images/wardrobe.avif" alt="" class="bestselling-img" />
+            <h2 class="bestselling-heading">Wardrobe</h2>
+            <p class="bestselling-paragraph">price: $ 10,000</p>
+            <button class="bestselling-btn">Buy Now</button>
+          </div>
+          <div class="bestselling-card">
+            <img src="images/sofa.avif" alt="" class="bestselling-img" />
+            <h2 class="bestselling-heading">Sofa</h2>
+            <p class="bestselling-paragraph">price: $ 1,500</p>
+            <button class="bestselling-btn">Buy Now</button>
+          </div>
+          <div class="bestselling-card">
+            <img src="images/table.avif" alt="" class="bestselling-img" />
+            <h2 class="bestselling-heading">Table</h2>
+            <p class="bestselling-paragraph">price: $ 3,500</p>
+            <button class="bestselling-btn">Buy Now</button>
+          </div>
+          <div class="bestselling-card">
+            <img src="images/bed.avif" alt="" class="bestselling-img" />
+            <h2 class="bestselling-heading">Bed</h2>
+            <p class="bestselling-paragraph">price: $ 1,500</p>
+            <button class="bestselling-btn">Buy Now</button>
+          </div>
+          <div class="bestselling-card">
+            <img src="images/chair.avif" alt="" class="bestselling-img" />
+            <h2 class="bestselling-heading">Chairs</h2>
+            <p class="bestselling-paragraph">price: $ 1,000</p>
+            <button class="bestselling-btn">Buy Now</button>
+          </div>
+        </div>
+      </section>
+      <!-- end of bestselling  -->
+      <!-- gallery -->
+      <section class="gallery">
+        <img
+          src="images/gallery-1.avif"
+          alt=""
+          class="gallery-img gallery-img-1"
+        />
+        <img
+          src="images/gallery-2.avif"
+          alt=""
+          class="gallery-img gallery-img-2"
+        />
+        <img
+          src="images/gallery-3.avif"
+          alt=""
+          class="gallery-img gallery-img-3"
+        />
+        <img
+          src="images/gallery-4.avif"
+          alt=""
+          class="gallery-img gallery-img-4"
+        />
+        <img
+          src="images/gallery-5.avif"
+          alt=""
+          class="gallery-img gallery-img-5"
+        />
+        <img
+          src="images/gallery-6.avif"
+          alt=""
+          class="gallery-img gallery-img-6"
+        />
+        <img
+          src="images/gallery-7.avif"
+          alt=""
+          class="gallery-img gallery-img-7"
+        />
+        <img
+          src="images/gallery-8.avif"
+          alt=""
+          class="gallery-img gallery-img-8"
+        />
+        <img
+          src="images/gallery-9.avif"
+          alt=""
+          class="gallery-img gallery-img-9"
+        />
+        <img
+          src="images/gallery-10.avif"
+          alt=""
+          class="gallery-img gallery-img-10"
+        />
+        <img
+          src="images/gallery-11.avif"
+          alt=""
+          class="gallery-img gallery-img-11"
+        />
+        <img
+          src="images/gallery-12.avif"
+          alt=""
+          class="gallery-img gallery-img-12"
+        />
+      </section>
+      <!-- end of gallery -->
+      <!-- content -->
+      <section class="content">
+        <h1 class="content-heading">Join us and be in the know</h1>
+        <form action="" class="content-form">
+          <input
+            type="text"
+            placeholder="Enter email address"
+            class="content-input"
+          />
+          <input type="submit" value="Sign Up" class="content-btn" />
+        </form>
+      </section>
+      <!-- end of content -->
+      <!-- footer -->
+      <footer class="footer">
+        <p>&copy; CodeAndCreate. All rights reserved</p>
+      </footer>
+      <!-- end of footer -->
+    </div>
+  </body>
+</html>
